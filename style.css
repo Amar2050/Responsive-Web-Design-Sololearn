@@ -12,7 +12,6 @@ body {
     max-width: 900px;
 }
 
-
 /* -------- HEADER -------- */
 
 header {
@@ -73,8 +72,8 @@ section {
 /* -------- QUOTE -------- */
 
 .quote {
-  background:#549DA0;
-  color:#FFFFFF;
+    background:#549DA0;
+    color:#FFFFFF;
 }
 
 blockquote {
@@ -124,3 +123,28 @@ footer li a:hover {
     color: white;
 }
 /* -------- END FOOTER -------- */
+
+
+/* ------ MOBILE VERSION ------ */
+@media screen and (max-width: 480px) {
+   
+    /* HEADER MOBILE */
+    .btn {
+        display: block;
+        font-size: 18px;
+    }
+    h1 {
+        font-size: 32px;
+        margin: 0 0 8px 0;
+    }
+    h2 {
+        font-size: 18px;
+    }
+    section {
+        padding: 25px 0 15px 0;
+    } 
+    /* END  HEADER MOBILE */
+
+}
+
+/* END MOBILE VERSION */
