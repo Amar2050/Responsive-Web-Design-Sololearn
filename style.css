@@ -129,6 +129,7 @@ footer li a:hover {
 @media screen and (max-width: 480px) {
    
     /* HEADER MOBILE */
+
     .btn {
         display: block;
         font-size: 18px;
@@ -143,7 +144,29 @@ footer li a:hover {
     section {
         padding: 25px 0 15px 0;
     } 
+
     /* END  HEADER MOBILE */
+
+
+    /* FEATURE MOBILE */
+    .feature {
+        width: 100%;
+        text-align: left;
+        margin: 0 0 10px 0;
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .feature img {
+        width:15%;
+        min-width:60px;
+        margin-right:20px;
+    }
+
+    /* END FEATURE MOBILE */
+
+
 
 }
 
