@@ -12,6 +12,11 @@ body {
     max-width: 900px;
 }
 
+section {
+    padding: 40px 0;
+    text-align: center;
+  }
+
 /* -------- HEADER -------- */
 
 header {
@@ -46,10 +51,7 @@ h1 {
     background: red;
 }
 /* -------- END HEADER -------- */
-section {
-  padding: 40px 0;
-  text-align: center;
-}
+
 
 /* -------- FEATURE -------- */
 
@@ -166,6 +168,31 @@ footer li a:hover {
 
     /* END FEATURE MOBILE */
 
+    /* QUOTE MOBILE */
+
+    .quote {
+        padding: 30px 0;
+    }
+    blockquote p {
+        font-size: 18px;
+    }
+    blockquote cite {
+        font-size: 14px;
+    }
+
+    /* END QUOTE MOBILE */
+
+    /* FOOTER MOBILE */
+
+    footer {
+        padding: 30px 0 10px 0;
+    }
+    footer li {
+        display: block;
+        margin: 5px 0;
+    }
+
+    /* END FOOTER MOBILE */
 
 
 }
